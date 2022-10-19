@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  background-color: rgb(27, 38, 49);
+  color: rgb(235, 237, 239);
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+#bruceFoto {
+  height: 500px;
+}
