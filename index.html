@@ -4,45 +4,213 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <title>Bruce Lee Biografia</title>
 </head>
-<body>
+<body id="cuerpo">
+  <header>
+    <nav>
+      <!-- <h1>Bruce Lee</h1> -->
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="#bio">Biografía</a></li>
+        <li><a href="#family">Familia</a></li>
+        <!-- Example single danger button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Arte
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#filmo">Peliculas</a></li>
+            <li><a class="dropdown-item" href="#tv">Televisión</a></li>
+            <li><a class="dropdown-item" href="#books">Libro</a></li>
+          </ul>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="mainContent">
+    <br><br><br>
+    <h2 id="bio">Biografía</h2>
+    <div class="biogr">
+
+    <p>
+      Bruce Lee nació en Chinatown (San Francisco), un 27 de noviembre de 1940, sin embargo, Bruce se crió en Kowloon (Hong Kong), lugar donde comenzó a entrenar a los trece años y a practicar de manera formal las artes marciales chinas del Taichí con su padre, y luego el estilo Wing Chun con el maestro Ip Man.
+    </p>
   
-  <h1>Bruce Lee Biografia</h1>
-  <hr>
-  <img src="./BrucePerfil.jpg" alt="imagen de Bruce Lee" id="bruceFoto">
-  <p>
-    Bruce Lee fue un artista marcial, maestro de artes marciales, actor, cineasta, filósofo y escritor estadounidense de origen hongkonés.
+    <p>
+      Desde muy pequeño, apareció en películas interpretando a niños y posteriormente a adolescentes. A los dieciocho años, Bruce regresó a los Estados Unidos, donde comenzó sus estudios de filosofía en la Universidad de Washington. Siendo un innovador y pensador, aplicó a su arte lo aprendido; estudió el pensamiento de varios filósofos occidentales y orientales provenientes del taoísmo como Lao-Tsé y Chuang-Tsé y, además, comenzó a entrenar a sus compañeros de universidad en el arte del kung-fu chino.
+    </p>
+  
+    <p>
+      Durante ese tiempo, Bruce abrió su primera escuela de artes marciales: el Jun Fan Gung-Fu Institute, ubicado en Seattle; tiempo después, abrió dos escuelas más en Oakland y Los Ángeles (California). Rápidamente, con base en todo lo aprendido de sus experiencias marciales, Bruce comenzó a desarrollar nuevas ideas sobre el entrenamiento de las artes marciales, lo que condujo a la creación de su sistema, el Jun Fan Gung-Fu, que tiempo después y sumado a su concepto filosófico se llamaría el Jeet Kune Do o «el camino del puño interceptor».
+    </p>
+  
+    <p>
+      Al mismo tiempo que hacía esto, Bruce, se convirtió en una celebridad a través de la serie estadounidense The Green Hornet, además de sus posteriores y populares películas: The Big Boss, Fist of Fury, Way of the Dragon, Enter the Dragon y Game of Death, logrando la exposición de las artes marciales chinas al mundo occidental. Bruce se convirtió en un ícono reconocido en todo el mundo, especialmente entre los chinos.
+    </p>
+  
+    <p>
+      Bruce Lee se casó con Linda Cadwell en 1964 y posteriormente tuvieron a su hijo Brandon Lee nacido en 1965, además de su hija Shannon Lee, nacida en 1969. La vida de Bruce Lee se vio truncada un 20 de julio de 1973, cuando murió como consecuencia de un derrame cerebral de causa desconocida. Su cuerpo descansa en el cementerio Lake View de Capitol Hill, Seattle, al lado de su hijo Brandon, fallecido en 1993 después de haber recibido un disparo por accidente en la filmación de la película The Crow.
+    </p>
+  
+    <p>
+      El legado dejado por Bruce Lee abarca desde películas hasta libros como El Tao del Jeet Kune Do, donde muestra gran parte de su filosofía y métodos de lucha. Su imagen perdura en el tiempo y ha quedado en la historia como una gran leyenda de las artes marciales, siendo incluso elegido por la revista TIME como uno de los cien hombres más influyentes del siglo XX, además de ser considerado como uno de los héroes e íconos de la historia.
+    </p>
+    </div>
+    <br><br><br>
+    
+    <h2 id="family">Familia</h2>
+    <div class="filmografia2">
+      <div class="peliculas">
+        <h3>Padres</h3>
+        <img src="./img/bruce lee parents.jpg" alt="Game of Death" style="width: 250px;">
+        <ul style="font-size: 130%;">
+          <li>Lee Hoi-chuen</li>
+          <li>Grace Ho</li>
+        </ul>
+      </div>
 
-    Lee es considerado como el artista marcial más influyente de todos los tiempos​ y un ícono de la cultura pop del siglo XX, que colmó la brecha entre Oriente y Occidente.
+      <div class="peliculas">
+        <h3>Cónyuge</h3>
+        <img src="./img/bruce and linda.jpg" alt="Game of Death">
+        <ul style="font-size: 130%;">
+          <li>Linda Lee Cadwell (matr. 1964)</li>
+        </ul>
+      </div>
 
-    Sus películas, entrevistas y principalmente su carisma e influencia contagiaron y extendieron el auge de la pasión por las artes marciales en todo Occidente, generando una ola de seguidores a través del mundo.
-  </p>
+      <div class="peliculas">
+        <h3>Hijos</h3>
+        <img src="./img/bruce and kids.jpg" alt="Game of Death" style="width: 250px;">
+        <ul style="font-size: 130%;">
+          <li>Brandon Lee</li>
+          <li>Shannon Lee</li>
+        </ul>
+      </div>
+    </div>
+    <br><br><br>
+    <h2 id="filmo">Peliculas</h2>
 
-  <p>
-    Bruce Lee nació en Chinatown (San Francisco), un 27 de noviembre de 1940, sin embargo, Bruce se crió en Kowloon (Hong Kong), lugar donde comenzó a entrenar a los trece años y a practicar de manera formal las artes marciales chinas del Taichí con su padre, y luego el estilo Wing Chun con el maestro Ip Man.
-  </p>
+    <div class="filmografia">
+      <div class="peliculas">
+        <img src="./img/Marlowe.jpg" alt="Marlowe">
+        <p>
+          1969: Marlowe
+        (Marlowe, detective muy privado)
+        </p>
+      </div>
 
-  <p>
-    Desde muy pequeño, apareció en películas interpretando a niños y posteriormente a adolescentes. A los dieciocho años, Bruce regresó a los Estados Unidos, donde comenzó sus estudios de filosofía en la Universidad de Washington. Siendo un innovador y pensador, aplicó a su arte lo aprendido; estudió el pensamiento de varios filósofos occidentales y orientales provenientes del taoísmo como Lao-Tsé y Chuang-Tsé y, además, comenzó a entrenar a sus compañeros de universidad en el arte del kung-fu chino.
-  </p>
+      <div class="peliculas">
+        <img src="./img/TheBigBoss.jpg" alt="TheBigBoss">
+        <p>
+          1971: The Big Boss
+        (El Gran Jefe o Kárate a Muerte en Bangkok)
+        </p>
+      </div>
 
-  <p>
-    Durante ese tiempo, Bruce abrió su primera escuela de artes marciales: el Jun Fan Gung-Fu Institute, ubicado en Seattle; tiempo después, abrió dos escuelas más en Oakland y Los Ángeles (California). Rápidamente, con base en todo lo aprendido de sus experiencias marciales, Bruce comenzó a desarrollar nuevas ideas sobre el entrenamiento de las artes marciales, lo que condujo a la creación de su sistema, el Jun Fan Gung-Fu, que tiempo después y sumado a su concepto filosófico se llamaría el Jeet Kune Do o «el camino del puño interceptor».
-  </p>
+      <div class="peliculas">
+        <img src="./img/fists_of_fury_ver2_xlg.jpeg" alt="Fist of Fury">
+        <p>
+          1972: Fist of Fury
+        (Furia Oriental o Puños de Furia)
+        </p>
+      </div>
 
-  <p>
-    Al mismo tiempo que hacía esto, Bruce, se convirtió en una celebridad a través de la serie estadounidense The Green Hornet, además de sus posteriores y populares películas: The Big Boss, Fist of Fury, Way of the Dragon, Enter the Dragon y Game of Death, logrando la exposición de las artes marciales chinas al mundo occidental. Bruce se convirtió en un ícono reconocido en todo el mundo, especialmente entre los chinos.
-  </p>
+      <div class="peliculas">
+        <img src="./img/Way of the Dragon.jpg" alt="Way of the Dragon">
+        <p>
+          1972: Way of the Dragon
+        (El regreso del Dragón o El Furor del Dragón)
+        </p>
+      </div>
 
-  <p>
-    Bruce Lee se casó con Linda Cadwell en 1964 y posteriormente tuvieron a su hijo Brandon Lee nacido en 1965, además de su hija Shannon Lee, nacida en 1969. La vida de Bruce Lee se vio truncada un 20 de julio de 1973, cuando murió como consecuencia de un derrame cerebral de causa desconocida. Su cuerpo descansa en el cementerio Lake View de Capitol Hill, Seattle, al lado de su hijo Brandon, fallecido en 1993 después de haber recibido un disparo por accidente en la filmación de la película The Crow.
-  </p>
+      <div class="peliculas">
+        <img src="./img/Enter-The-Dragon.jpg" alt="Enter the Dragon">
+        <p>
+          1973: Enter the Dragon (Estrenada seis días después de la muerte de Bruce Lee)
+        </p>
+      </div>
 
-  <p>
-    El legado dejado por Bruce Lee abarca desde películas hasta libros como El Tao del Jeet Kune Do, donde muestra gran parte de su filosofía y métodos de lucha. Su imagen perdura en el tiempo y ha quedado en la historia como una gran leyenda de las artes marciales, siendo incluso elegido por la revista TIME como uno de los cien hombres más influyentes del siglo XX, además de ser considerado como uno de los héroes e íconos de la historia.
-  </p>
+      <div class="peliculas">
+        <img src="./img/Game of Death.jpg" alt="Game of Death">
+        <p>
+          1978: Game of Death
+        (El juego de la muerte). Filmada en 1972
+        </p>
+      </div>
 
+    </div>
+
+    <br><br>
+
+    <h2 id="tv">Televisión</h2>
+    <div class="filmografia2">
+      <div class="peliculas">
+        <img src="./img/The Green Hornet.jpg" alt="The Green Hornet">
+      </div>
+
+      <div class="texto">
+        <h3>1966-1967: The Green Hornet
+          (El Avispón Verde)</h3>
+          <p>
+            El dueño del periódico Daily Sentinel, Britt Reid (Van Williams), lucha contra el crimen con la identidad secreta de El Avispón Verde.
+En esa lucha cuenta con la ayuda de Kato (Bruce Lee), experto en artes marciales.
+          </p>
+          <p>
+            Bruce Lee logró su primer papel de entidad como Kato, ensombreciendo al propio protagonista.
+La serie se emitió como “The Kato Show” en Hong Kong.
+          </p>
+      </div>
+    </div>
+    
+
+    <br><br>
+
+    <h2 id="books">Libros</h2>
+
+    <div class="filmografia">
+      <div class="peliculas">
+        <img src="./img/Chinese Kung Fu, the Phylosophical Art of Self-defense.jpeg" alt="Chinese Kung Fu, the Phylosophical Art of Self-defense">
+      </div>
+
+      <div class="texto">
+        <h3>Bruce Lee (1963), Chinese Kung Fu, the Phylosophical Art of Self-defense</h3>
+        <p>
+          es un libro escrito por Bruce Lee que expresa su filosofía y puntos de vista de artes marciales.
+          Describe su estilo temprano de gung fu que se basó en gran medida en el Wing Chun.
+          Esto fue antes del desarrollo de su estilo único de artes marciales llamado Jeet Kune Do a fines de la década de 1960.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <nav>
+      <ul id="footerNav">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="#bio">Biografía</a></li>
+        <li><a href="#family">Familia</a></li>
+        <!-- Example single danger button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Arte
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#filmo">Peliculas</a></li>
+            <li><a class="dropdown-item" href="#tv">Televisión</a></li>
+            <li><a class="dropdown-item" href="#books">Libro</a></li>
+          </ul>
+        </div>
+      </ul>
+    </nav>
+    <p>Eduardo Moreira 2022</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

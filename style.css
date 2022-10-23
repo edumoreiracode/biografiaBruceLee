@@ -1,18 +1,128 @@
 body {
-  height: 100vh;
-  background-color: rgb(27, 38, 49);
-  color: rgb(235, 237, 239);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 100vw;
+  font-family: 'Playfair Display', serif;
 }
 
-hr {
+#cuerpo {
+  background-color: rgb(245,230,83);
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 0;
+  padding: 15px;
+  width: 100%;
+}
+
+ul li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 80%;
 }
 
-h1 {
-  font-size: 300%;
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/bruce\ wallpaper\ 1.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#pDescription {
+  width: 90%;
+  text-align: center;
+  margin: 30px;
 }
 
 #bruceFoto {
-  height: 500px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.filmografia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.filmografia2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.peliculas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  text-align: center;
+}
+
+.peliculas img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.texto {
+  width: 600px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  margin-top: 30px;
+}
+
+footer p {
+  font-size: 24px;
+  color: rgb(245,230,83);
+}
+
+p {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 200%;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+.biogr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#footerNav {
+  width: 100%;
 }
